@@ -1,10 +1,6 @@
 import java.lang.RuntimeException
 
 fun main(args: Array<String>) {
-    val service = NotesService()
-    val note = service.createComment(1, Comments())
-
-    val result = service.deleteComment(1)
 }
 
 data class Notes<A, B>(
